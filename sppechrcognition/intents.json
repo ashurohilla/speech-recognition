@@ -1,0 +1,122 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "coco",
+                "coco whats up",
+                "wake up coco ",
+                "hey coco",
+                "coco whats going on"
+            ],
+            "responses": [
+                "hello sir ",
+                "hello what i can do for you"
+            ]
+        },
+        {
+            "tag": "create_note",
+            "patterns": [
+                "please create a note",
+                "new  note",
+                " i want to create a note"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "add_todo",
+            "patterns": [
+                "i want to add a to do",
+                " add a to do",
+                " add a to do list to my list"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "show_todo",
+            "patterns": [
+                "i want to see my to do",
+                " show me to do",
+                " show my to do"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "youtube",
+            "patterns": [
+                "open youtube",
+                "can you open youtube for me",
+                " please open youtube",
+                " i want to open youtube"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "chrome",
+            "patterns": [
+                "please search",
+                "can you find",
+                "find",
+                "can you search"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "send_email",
+            "patterns": [
+                "plz send a email",
+                "send a email",
+                "can you send my information",
+                "send email"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "turning_of",
+            "patterns": [
+                "off",
+                "make of",
+                "light down",
+                "make dark"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "turning_on",
+            "patterns": [
+                "on ",
+                "switch on ",
+                "glow",
+                "make some brightness"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "visualstudio",
+            "patterns": [
+                "visualstudiocode",
+                " code ",
+                "code a algorithm"
+            ],
+            "responses": [
+                " opening vsual studio code"
+            ]
+        }
+    ]
+}
